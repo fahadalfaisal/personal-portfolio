@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+  html {
+    font-size: 10px;
+  }
+  
+  body {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #3e3e3e;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  p {
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  img {
+    width: 80%;
+  }
+  
+  header,
+  section {
+    padding: 80px 0;
+    min-height: 800px;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .left-side {
+    width: 45%;
+    float: left;
+  }
+  .right-side {
+    margin-right: 100px;
+  }
+  .text-indigo {
+    color: #4B0082;
+  }
+  .text-MediumPurple {
+    color: #800000;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .latest{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: rgb(252, 100, 40);
+  }
+
+  .first-heading,
+  .second-heading {
+    font-family: Bebas Neue, sans-serif;
+    letter-spacing: 0.001px;
+  }
+  .first-heading {
+    font-size: 80px;
+    text-transform: uppercase;
+  }
+  .second-heading {
+    font-size: 48px;
+  }
+  .third-heading {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  .button {
+    color: #fff;
+    background-image: linear-gradient(to bottom, #f46060, #ff8063);
+    padding: 8px 15px;
+    font-size: 18px;
+    display: inline-block;
+    border-radius: 2px;
+    text-align: center;
+  }
+
+  .navbar {
+    float: right;
+  }
+  .nav-menu {
+    list-style: none;
+    color: #3c3c3c;
+    padding: 1px;
+  }
+  .nav-menu-ele {
+    display: inline-block;
+    cursor: pointer;
+  }
+  .nav-menu-ele a {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .nav-menu-ele:not(:last-child) a {
+    margin-right: 10px;
+  }
+  
+  
+  .main-part {
+    padding-top: 100px;
+  }
+  
+  .main-part .first-heading span {
+    display: block;
+  }
+  
+  .main-part .first-heading span:first-child {
+    margin-bottom: -20px;
+  }
+  
+  .main-part p {
+    width: 68%;
+  }
+  
+  .main-part .button,
+  .about .button {
+    margin: 30px 0;
+  }
+  
+  .about .button {
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  .about .button::before {
+    content: "";
+    background-image: url(pictures/download.svg);
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    left: 4px;
+    padding: 10px;
+  }
+  
+  .section-work {
+    background: #f8f9fc;
+  }
+
+  .working-project {
+    text-transform: uppercase;
+    color: rgb(3, 3, 34);
+  }
+
+  h3 {
+    font-weight: bold;
+    color: rgb(4, 4, 88);
+  }
+
+  .projects {
+    margin-top: 50px;
+  }
+  .project {
+    width: 30%;
+    background: #fff;
+    display: inline-block;
+    box-shadow: 0 4.8px 15.74px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    height: 320px;
+  }
+  .project:not(:first-of-type) {
+    margin-left: 50px;
+  }
+  .project-content {
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+  }
+  .project .third-heading {
+    margin: 20px 0 5px 0;
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+  }
+  .project p {
+    color: #6c6c6c;
+    font-size: 16px;
+  }
+  
+  .project img {
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .section-contact {
+    min-height: 0;
+  }
+  
+  .cta {
+    background: url(pictures/image\ 3.png);
+    background-position: bottom;
+    color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px;
+    background-size: cover;
+    height: 200px;
+    border-radius: 30px;
+  }
+  .cta-content {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .cta .first-heading {
+    font-size: 60px;
+    margin-top: 8%;
+    letter-spacing: 2px;
+  }
+  
+  .cta .button {
+    float: right;
+    margin-top: -10.5%;
+    font-weight: bold;
+  }
+  
+  .footer {
+    padding-bottom: 50px;
+  }
+  
+  .footer .stay-connected {
+    font-family: Bebas Neue, sans-serif;
+    font-size: 30px;
+    color: #696871;
+    margin: 10px 0;
+    text-transform: uppercase;
+  }
+  
+  .footer .email {
+    font-size: 40px;
+  }
+  
+  .social {
+    margin: 35px 0;
+    text-align: center;
+  }
+  .social-item {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    margin-left: 20px;
+  }
+ 
